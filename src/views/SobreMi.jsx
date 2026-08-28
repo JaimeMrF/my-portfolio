@@ -1,7 +1,7 @@
 import Terminal from '../components/Terminal'
 import SocialMediaButton from '../components/SocialMediaButton'
 import { profile, terminalCommands } from '../data/profile'
-import profilePhoto from '../assets/profile.png'
+import profilePhoto from '../assets/profile.webp'
 import github from '../assets/github.svg'
 import linkedin from '../assets/linkedin.svg'
 

@@ -1,11 +1,19 @@
 import ProjectCard from '../components/ProjectCard'
+import unab_bus from '../assets/unab_bus.webp'
+import portfolio from '../assets/portfolio.webp'
 
 const projects = [
   {
-    title: "Nombre del proyecto",
-    description: "Breve descripción de qué hace el proyecto y qué tecnologías usaste.",
-    img: null,
-    link: "https://github.com/JaimeMrF/proyecto",
+    title: "Bus Unab",
+    description: "Sistema de transporte universitario desarrollado con Laravel, Kotlin Multiplatform, MySQL y Firebase, con API REST, autenticación y panel de administración mediante Filament.",
+    img: unab_bus,
+    link: "https://github.com/JaimeMrF/bus_unab",
+  },
+  {
+    title: "Portafolio",
+    description: "Portafolio web desarrollado con React y Vite, con diseño responsive y componentes reutilizables para presentar proyectos, tecnologías y experiencia en desarrollo de software.",
+    img: portfolio,
+    link: "https://github.com/JaimeMrF/my-portfolio",
   }
 ]
 
