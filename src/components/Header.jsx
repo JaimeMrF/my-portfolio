@@ -44,8 +44,13 @@ function Header() {
 
       <div className="min-h-[4.5rem] px-4 sm:px-6 lg:px-10 flex items-center justify-between gap-4">
 
+        <div className="sm:hidden shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-black/5 dark:bg-black/40 border border-black/10 dark:border-black font-mono whitespace-nowrap">
+          <span className="text-black/70 dark:text-white text-xs select-none">{'>'}</span>
+          <span className="text-xs text-black/80 dark:text-white tracking-wide">JaimeMrF</span>
+        </div>
+
         <section
-          className="w-32 sm:w-56 lg:w-80 shrink-0 overflow-hidden"
+          className="hidden sm:block sm:w-56 lg:w-80 shrink-0 overflow-hidden"
           style={{
             maskImage: 'linear-gradient(to right, black 85%, transparent 100%)',
             WebkitMaskImage: 'linear-gradient(to right, black 85%, transparent 100%)',
@@ -54,7 +59,7 @@ function Header() {
           <HeaderName text="Jaime Alejandro Vega Barbosa" />
         </section>
 
-        <nav className="hidden md:flex items-center justify-center gap-8 lg:gap-10 flex-1 -translate-x-6 -lg:translate-x-10">
+        <nav className="hidden md:flex items-center justify-center gap-8 lg:gap-10 flex-1 lg:-translate-x-10">
           <NavLink to="/" className={navLinkClasses} end>Sobre mí</NavLink>
           <NavLink to="/proyectos" className={navLinkClasses}>Proyectos</NavLink>
           <NavLink to="/contacto" className={navLinkClasses}>Contacto</NavLink>

@@ -5,7 +5,7 @@ function SocialMediaButton(props) {
         group
         relative
         flex items-center justify-center
-        size-7 sm:size-11 lg:size-12
+        size-9 sm:size-11 lg:size-12
         rounded-full
         p-2 sm:p-2.5
         bg-black/5 dark:bg-[#2a2e2c]

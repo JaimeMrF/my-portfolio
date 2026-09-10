@@ -103,9 +103,10 @@
 .project-card-title { font-family: 'Manrope', sans-serif; font-size: 1.65rem; line-height: 1; font-weight: 700; }
 .project-card-description { color: #687067; }
 .dark .project-card-description { color: #b1bbb0; }
-.project-card-link { color: #34d399; font-family: 'DM Mono', monospace; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.project-card-link { color: #4d7865; font-family: 'DM Mono', monospace; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; }
 .dark .project-card-link { color: #34d399; }
-.project-card-link:hover { color: #6ee7b7; }
+.project-card-link:hover { color: #2f4d40; }
+.dark .project-card-link:hover { color: #6ee7b7; }
 .project-card-image { filter: saturate(0.72) sepia(0.08); }
 
 .contact-page { height: 100%; overflow: hidden; color: #18201d; }
@@ -117,9 +118,9 @@
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
 }
-.contact-eyebrow { color: #34d399; }
+.contact-eyebrow { color: #4d7865; }
 .dark .contact-eyebrow { color: #9bc8ac; }
-.contact-heading h1 { max-width: 600px; min-width: 0; margin-top: 0.8rem; overflow-wrap: normal; word-break: normal; hyphens: none; font: 800 clamp(2.8rem, 6vw, 5.3rem)/0.92 'Manrope', sans-serif; letter-spacing: -0.05em; }
+.contact-heading h1 { max-width: 600px; min-width: 0; margin-top: 0.8rem; overflow-wrap: normal; word-break: normal; hyphens: none; text-wrap: balance; font: 800 clamp(2.8rem, 6vw, 5.3rem)/1.05 'Manrope', sans-serif; letter-spacing: -0.05em; }
 .contact-heading p { max-width: 470px; margin-top: 1.25rem; color: #65706b; font-size: 0.95rem; line-height: 1.7; }
 .dark .contact-heading p, .dark .contact-aside-note { color: #aeb9b1; }
 .contact-layout { display: grid; grid-template-columns: minmax(170px, 0.65fr) minmax(0, 1.7fr); gap: clamp(2rem, 8vw, 8rem); margin-top: clamp(2.5rem, 7vh, 5rem); }
@@ -195,7 +196,8 @@
 	max-width: 30rem;
 	margin-bottom: 2.75rem;
 	font-size: clamp(3.6rem, 8vw, 7rem);
-	line-height: 0.78;
+	line-height: 0.92;
+	text-wrap: balance;
 }
 
 .projects-grid {
@@ -279,9 +281,10 @@
 
 
 .contact-heading h1 {
-	max-width: 42rem;
-	font-size: clamp(3.2rem, 7vw, 6.2rem);
-	line-height: 0.78;
+	max-width: 48rem;
+	font-size: clamp(3rem, 5.4vw, 5.2rem);
+	line-height: 1.05;
+	text-wrap: balance;
 }
 
 .contact-heading p {
@@ -291,8 +294,8 @@
 }
 
 .contact-layout {
-	grid-template-columns: minmax(15rem, 0.65fr) minmax(0, 1.35fr);
-	gap: clamp(2rem, 7vw, 7rem);
+	grid-template-columns: minmax(18rem, 1fr) minmax(0, 1fr);
+	gap: clamp(2rem, 6vw, 5rem);
 	margin-top: 0;
 	align-items: start;
 }

@@ -24,7 +24,7 @@ function Proyectos() {
         Proyectos
       </h1>
 
-      <div className="projects-grid flex flex-wrap justify-center gap-6">
+      <div className="projects-grid flex flex-wrap justify-start gap-6">
         {projects.map((project, index) => (
           <div key={index} className="project-grid-item w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]">
             <ProjectCard
